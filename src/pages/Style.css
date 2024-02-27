@@ -1,0 +1,11 @@
+.forma{
+  width: 500px;
+  background-color: #eee;
+  margin: 0 auto;
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 5px;
+}
+#email::placeholder{
+  color: grey;
+}
