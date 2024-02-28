@@ -25,6 +25,7 @@ function Register() {
     .then(res => res.json())
     .then(data => {
       console.log(data);
+      alert(`Congratulation! ${data.message}`)
     })
     .catch(err =>{
       console.log(err);
